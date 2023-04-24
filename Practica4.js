@@ -38,4 +38,11 @@ console.log(persona.nombre)
 persona.nombre = "Marianita"
 console.log(persona.nombre)
 
-//
+//Spread Operator
+const color = ["negro", "blanco", "naranja"]
+const color2 = [...color]
+
+console.log(color2)
+
+const unoAlTres = [1, 2, 3]
+const cuatroAlSeis = [4, 5, 6]
