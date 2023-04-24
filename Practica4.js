@@ -46,3 +46,19 @@ console.log(color2)
 
 const unoAlTres = [1, 2, 3]
 const cuatroAlSeis = [4, 5, 6]
+const unoAlSeis = [...unoAlTres, ...cuatroAlSeis]
+
+console.log(unoAlSeis)
+
+
+const saludos = {
+    english: "hi",
+    french: "bonjour"
+}
+const saludos2 = {
+    russian: "privet",
+    japanese: "Kon'nichiwa"
+}
+const saludos3 = {...saludos, ...saludos2}
+
+console.log(saludos3)
