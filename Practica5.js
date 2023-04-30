@@ -17,4 +17,4 @@ function potencia(num,exponente) {
 const r = potencia(4,2)
     console.log(r)
 
-    //Actualización
+    //Actualización 12345
